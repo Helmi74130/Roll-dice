@@ -106,7 +106,7 @@ cube.add(group);
 function time() {
 	setTimeout(() => {
 		cancelAnimationFrame(id)
-	}, 987);
+	}, 880);
 }
 
 function animate() {
