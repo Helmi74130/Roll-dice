@@ -21,7 +21,7 @@ const spotLight = new THREE.SpotLight('lightgrey');
 spotLight.position.set(-1.3, 1.1, 1);
 scene.add(spotLight);
 renderer.setClearColor(0xffffff, 0)
-cube.rotation.x = -0.5
+cube.rotation.x = -1
 
 const torusGeometry = new THREE.SphereGeometry(0.1, 32, 16);
 const redMaterial = new THREE.MeshStandardMaterial({
@@ -106,7 +106,7 @@ cube.add(group);
 function time() {
 	setTimeout(() => {
 		cancelAnimationFrame(id)
-	}, 880);
+	}, 964);
 }
 
 function animate() {
