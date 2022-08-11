@@ -248,7 +248,7 @@ let textLanguageEn = document.getElementsByClassName('textLanguageEn')
 let textLanguageFr = document.getElementsByClassName('textLanguageFr')
 let english = document.getElementById('english')
 
-
+/* test */
 french.addEventListener('click', () => {
 	for (let i = 0; i < textLanguageEn.length; i++) {
 		textLanguageEn[i].style.display = 'none';
