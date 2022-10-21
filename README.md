@@ -7,7 +7,12 @@ Le résultat d’un lancer est ajouté au ROUND
 Lors de son tour, le joueur peut décider à tout moment de:
 - Cliquer sur l’option “Hold”, qui permet d’envoyer les points du ROUND vers le GLOBAL. Ce sera alors le tour de l’autre joueur
 - Lancer le dé. S’il obtient un 1, son score ROUND est perdu et c’est la fin de son tour
-Le premier joueur qui atteint les 100 points sur global gagne le jeu
+Le premier joueur qui atteint les 100 points sur global gagne le jeu.
+
+## Spécification Téchnique
+
+**Front-end:** HTML, SCSS, Javascript, Jquery
+
 
 ## Pour jouer vous avez 2 choix
 
